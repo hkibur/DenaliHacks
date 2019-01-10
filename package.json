@@ -1,0 +1,25 @@
+{
+  "name": "denalihacks",
+  "version": "0.1.0",
+  "description": "denalihacks www",
+  "engines": {
+    "node": "8.11.1"
+  },
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "*",
+    "compression": "*",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "morgan": "*",
+    "request": "*",
+    "xmljson": "*"
+  },
+  "keywords": [
+    "node",
+    "express"
+  ]
+}
