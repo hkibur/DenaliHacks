@@ -1,1 +1,1 @@
-Official DenaliHacks software repository.
+Official DenaliHacks software repository. 
