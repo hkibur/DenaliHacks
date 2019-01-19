@@ -103,8 +103,10 @@
 			color: #fff !important
 		}
 
-		td.teamrole{
-			font-size: 20px; font-weight: 300; color: #dddddd;
+		td.teamrole {
+			font-size: 20px;
+			font-weight: 300;
+			color: #dddddd;
 
 		}
 	</style>
@@ -135,25 +137,25 @@
 					s = 0,
 					h = 0;
 				if (e.responsiveLevels && (jQuery.each(e.responsiveLevels, function(e, f) {
-						f > i && (t = r = f, l = e), i > f && f > r && (r = f, n = e)
-					}),
-					t > r && (l = n)), f = e.gridheight[l] || e.gridheight[0] || e.gridheight, s = e.gridwidth[l] || e.gridwidth[0] || e.gridwidth,
+							f > i && (t = r = f, l = e), i > f && f > r && (r = f, n = e)
+						}),
+						t > r && (l = n)), f = e.gridheight[l] || e.gridheight[0] || e.gridheight, s = e.gridwidth[l] || e.gridwidth[0] || e.gridwidth,
 					h = i / s, h = h > 1 ? 1 : h, f = Math.round(h * f),
 					"fullscreen" == e.sliderLayout) {
-						var u = (e.c.width(), jQuery(window).height());
-						if (void 0 != e.fullScreenOffsetContainer) {
-							var c = e.fullScreenOffsetContainer.split(",");
-							if (c) jQuery.each(c, function(e, i) {
-									u = jQuery(i).length > 0 ? u - jQuery(i).outerHeight(!0) : u
-								}),
-								e.fullScreenOffset.split("%").length > 1 && void 0 != e.fullScreenOffset && e.fullScreenOffset.length > 0 ? u -= jQuery(window).height() * parseInt(e.fullScreenOffset, 0) / 100 : void 0 != e.fullScreenOffset && e.fullScreenOffset.length >
-								0 && (u -= parseInt(e.fullScreenOffset, 0))
-						}
-						f = u
-					} else void 0 != e.minHeight && f < e.minHeight && (f = e.minHeight);
-					e.c.closest(".rev_slider_wrapper").css({
-						height: f
-					})
+					var u = (e.c.width(), jQuery(window).height());
+					if (void 0 != e.fullScreenOffsetContainer) {
+						var c = e.fullScreenOffsetContainer.split(",");
+						if (c) jQuery.each(c, function(e, i) {
+								u = jQuery(i).length > 0 ? u - jQuery(i).outerHeight(!0) : u
+							}),
+							e.fullScreenOffset.split("%").length > 1 && void 0 != e.fullScreenOffset && e.fullScreenOffset.length > 0 ? u -= jQuery(window).height() * parseInt(e.fullScreenOffset, 0) / 100 : void 0 != e.fullScreenOffset && e.fullScreenOffset.length >
+							0 && (u -= parseInt(e.fullScreenOffset, 0))
+					}
+					f = u
+				} else void 0 != e.minHeight && f < e.minHeight && (f = e.minHeight);
+				e.c.closest(".rev_slider_wrapper").css({
+					height: f
+				})
 			} catch (d) {
 				console.log("Failure at Presize of Slider:" + d)
 			}
@@ -238,7 +240,8 @@
 					<a class="tp-caption    tp-rs-menulink" href="#weoffer" target="_self" rel="nofollow" id="slide-79-layer-55" data-x="['right','right','right','right']" data-hoffset="['80','80','50','30']" data-y="['top','top','top','top']" data-voffset="['220','220','180','160']"
 					  data-fontsize="['23','23','23','20']" data-lineheight="['23','23','23','20']" data-width="['340','340','300','260']" data-height="none" data-whitespace="nowrap" data-type="text" data-actions='[{"event":"click","action":"simulateclick","layer":"slide-79-layer-51","delay":""}]'
 					  data-basealign="slide" data-responsive_offset="off" data-responsive="off" data-frames='[{"delay":"bytrigger","speed":650,"frame":"0","from":"x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[100%];y:0;s:inherit;e:inherit;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"bytrigger","speed":500,"frame":"999","to":"x:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power4.easeOut"},{"frame":"hover","speed":"150","ease":"Power1.easeInOut","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(46,216,163);"}]'
-					  data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[5,5,5,5]" data-paddingbottom="[10,10,10,10]" data-paddingleft="[5,5,5,5]" data-lasttriggerstate="reset" style="z-index: 15; min-width: 340px; max-width: 340px; white-space: nowrap; font-size: 23px; line-height: 23px; font-weight: 600; color: #000000; letter-spacing: 0px;font-family:Source Sans Pro;cursor:pointer;text-decoration: none;">What we offer
+					  data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[5,5,5,5]" data-paddingbottom="[10,10,10,10]" data-paddingleft="[5,5,5,5]" data-lasttriggerstate="reset" style="z-index: 15; min-width: 340px; max-width: 340px; white-space: nowrap; font-size: 23px; line-height: 23px; font-weight: 600; color: #000000; letter-spacing: 0px;font-family:Source Sans Pro;cursor:pointer;text-decoration: none;">What
+						we offer
 					</a>
 
 
@@ -254,7 +257,8 @@
 					<a class="tp-caption    tp-rs-menulink" href="#theteam" target="_self" rel="nofollow" id="slide-79-layer-64" data-x="['right','right','right','right']" data-hoffset="['80','80','50','30']" data-y="['top','top','top','top']" data-voffset="['340','340','300','250']"
 					  data-fontsize="['23','23','23','20']" data-lineheight="['23','23','23','20']" data-width="['340','340','300','260']" data-height="none" data-whitespace="nowrap" data-type="text" data-actions='[{"event":"click","action":"simulateclick","layer":"slide-79-layer-51","delay":""}]'
 					  data-basealign="slide" data-responsive_offset="off" data-responsive="off" data-frames='[{"delay":"bytrigger","speed":650,"frame":"0","from":"x:[-175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[100%];y:0;s:inherit;e:inherit;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"bytrigger","speed":500,"frame":"999","to":"x:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power4.easeOut"},{"frame":"hover","speed":"150","ease":"Power1.easeInOut","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(46,216,163);"}]'
-					  data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[5,5,5,5]" data-paddingbottom="[10,10,10,10]" data-paddingleft="[5,5,5,5]" data-lasttriggerstate="reset" style="z-index: 18; min-width: 340px; max-width: 340px; white-space: nowrap; font-size: 23px; line-height: 23px; font-weight: 600; color: #000000; letter-spacing: 0px;font-family:Source Sans Pro;cursor:pointer;text-decoration: none;">Meet the team
+					  data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[5,5,5,5]" data-paddingbottom="[10,10,10,10]" data-paddingleft="[5,5,5,5]" data-lasttriggerstate="reset" style="z-index: 18; min-width: 340px; max-width: 340px; white-space: nowrap; font-size: 23px; line-height: 23px; font-weight: 600; color: #000000; letter-spacing: 0px;font-family:Source Sans Pro;cursor:pointer;text-decoration: none;">Meet
+						the team
 					</a>
 
 					<!-- LAYER NR. 15 -->
@@ -312,8 +316,9 @@
 					<!-- LAYER NR. 2 -->
 					<div class="tp-caption    tc-gradient" id="slide-81-layer-10" data-x="['left','left','left','left']" data-hoffset="['40','40','30','25']" data-y="['middle','middle','middle','middle']" data-voffset="['-103','-102','-123','-152']" data-fontsize="['80','70','60','50']"
 					  data-lineheight="['80','70','60','50']" data-width="none" data-height="none" data-whitespace="nowrap" data-type="text" data-responsive_offset="off" data-responsive="off" data-frames='[{"delay":490,"speed":1500,"frame":"0","from":"x:[175%];y:0px;z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:1;","mask":"x:[-100%];y:0;s:inherit;e:inherit;","to":"o:1;","ease":"Power3.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-					  data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 6; white-space: nowrap; font-size: 80px; line-height: 80px; font-weight: 400; color: #ffffff; letter-spacing: 0px;font-family:Source Sans Pro;"><img src="./assets/images/denalihacks_logo sm.png" data-bgcolor='#eef0f1'
-						style='border-radius: 50%; background:#eef0f1' alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina></i> </div>
+					  data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 6; white-space: nowrap; font-size: 80px; line-height: 80px; font-weight: 400; color: #ffffff; letter-spacing: 0px;font-family:Source Sans Pro;"><img
+						  src="./assets/images/denalihacks_logo sm.png" data-bgcolor='#eef0f1' style='border-radius: 50%; background:#eef0f1' alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina></i>
+					</div>
 
 					<!-- LAYER NR. 3 -->
 					<div class="tp-caption  " id="slide-81-layer-1" data-x="['left','left','left','left']" data-hoffset="['120','120','100','80']" data-y="['middle','middle','middle','middle']" data-voffset="['-100','-100','-120','-150']" data-fontsize="['90','80','70','60']"
@@ -390,11 +395,9 @@
 
 						<!-- LAYER NR. 1 -->
 						<div class="tp-caption  " id="slide-83-layer-2" data-x="['left','left','left','left']" data-hoffset="['100','100','100','100']" data-y="['top','top','top','top']" data-voffset="['100','100','100','100']" data-width="none" data-height="none"
-						  data-whitespace="nowrap" data-type="row" data-columnbreak="2" data-responsive_offset="off" data-responsive="off" data-frames='[{"delay":10,"speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},
-			{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-						  data-margintop="[200,200,150,150]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]" data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]"
-						  data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5; white-space: nowrap; font-size: 20px; line-height: 22px;
-			font-weight: 400; color: rgba(255,255,255,1); letter-spacing: px;font-family:Open Sans;">
+						  data-whitespace="nowrap" data-type="row" data-columnbreak="2" data-responsive_offset="off" data-responsive="off" data-frames='[{"delay":10,"speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"}, {"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+						  data-margintop="[50,50,50,50]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]" data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]"
+						  data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5; white-space: nowrap; font-size: 20px; line-height: 22px;font-weight: 400; color: rgba(255,255,255,1); letter-spacing: px;font-family:Open Sans;">
 							<!-- LAYER NR. 2 -->
 							<div class="tp-caption  " id="slide-83-layer-3" data-x="['left','left','left','left']" data-hoffset="['100','100','100','100']" data-y="['top','top','top','top']" data-voffset="['100','100','100','100']" data-width="none" data-height="none"
 							  data-whitespace="nowrap" data-type="column" data-responsive_offset="off" data-responsive="off" data-frames='[{"delay":"+0","speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},
@@ -419,7 +422,7 @@
 						<!-- LAYER NR. 5 -->
 						<div class="tp-caption  " id="slide-83-layer-27" data-x="['left','left','left','left']" data-hoffset="['105','100','100','100']" data-y="['top','top','top','top']" data-voffset="['105','100','100','100']" data-width="none" data-height="none"
 						  data-whitespace="nowrap" data-type="row" data-columnbreak="2" data-responsive_offset="off" data-responsive="off" data-frames='[{"delay":10,"speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-						  data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[200,200,150,150]" data-marginleft="[0,0,0,0]" data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]"
+						  data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[100,100,50,50]" data-marginleft="[0,0,0,0]" data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]"
 						  data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 9; white-space: nowrap; font-size: 20px; line-height: 22px; font-weight: 400; color: rgba(255,255,255,1); letter-spacing: px;font-family:Open Sans;">
 							<!-- LAYER NR. 6 -->
 							<div class="tp-caption  " id="slide-83-layer-28" data-x="['left','left','left','left']" data-hoffset="['100','100','100','100']" data-y="['top','top','top','top']" data-voffset="['100','100','100','100']" data-width="none" data-height="none"
@@ -513,7 +516,7 @@
 						<!-- LAYER NR. 1 Row 1-->
 						<div class="tp-caption  " id="slide-85-layer-2" data-x="['left','left','left','left']" data-hoffset="['100','100','100','100']" data-y="['top','top','top','top']" data-voffset="['100','100','100','100']" data-width="none" data-height="none"
 						  data-whitespace="nowrap" data-type="row" data-columnbreak="2" data-responsive_offset="off" data-responsive="off" data-frames='[{"delay":10,"speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-						  data-margintop="[200,200,150,150]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]" data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]"
+						  data-margintop="[50,50,50,50]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]" data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]"
 						  data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 6; white-space: nowrap; font-size: 20px; line-height: 22px; font-weight: 400; color: rgba(255,255,255,1); letter-spacing: px;font-family:Open Sans;">
 							<!-- LAYER NR. 2 -->
 							<div class="tp-caption  " id="slide-85-layer-3" data-x="['left','left','left','left']" data-hoffset="['100','100','100','100']" data-y="['top','top','top','top']" data-voffset="['100','100','100','100']" data-width="none" data-height="none"
@@ -571,7 +574,7 @@
 								  data-type="text" data-responsive_offset="off" data-responsive="off" data-frames='[{"delay":"+790","speed":1000,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"150","ease":"Power1.easeInOut","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(46,216,163);bw:1px 0 0 0;"}]'
 								  data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[50,50,50,50]" data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[10,10,10,10]" data-paddingright="[0,0,0,0]"
 								  data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 15; white-space: normal; font-size: 17px; line-height: 17px; font-weight: 600; color: #ffffff; letter-spacing: 0px; display: block;font-family:Source Sans Pro;border-color:rgba(255,255,255,0.15);border-style:solid;border-width:1px 0px 0px 0px;cursor:pointer;">
-								 </div>
+								</div>
 							</div>
 
 							<!-- LAYER NR. 11 -->
@@ -605,7 +608,7 @@
 								  data-type="text" data-responsive_offset="off" data-responsive="off" data-frames='[{"delay":"+790","speed":1000,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"150","ease":"Power1.easeInOut","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(46,216,163);bw:1px 0 0 0;"}]'
 								  data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[50,50,50,50]" data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[10,10,10,10]" data-paddingright="[0,0,0,0]"
 								  data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 20; white-space: normal; font-size: 17px; line-height: 17px; font-weight: 600; color: #ffffff; letter-spacing: 0px; display: block;font-family:Source Sans Pro;border-color:rgba(255,255,255,0.15);border-style:solid;border-width:1px 0px 0px 0px;cursor:pointer;">
-								 </div>
+								</div>
 							</div>
 
 						</div>
@@ -613,7 +616,7 @@
 						<!-- LAYER NR. 21 -->
 						<div class="tp-caption  " id="slide-85-layer-54" data-x="['left','left','left','left']" data-hoffset="['110','100','100','100']" data-y="['top','top','top','top']" data-voffset="['110','100','100','100']" data-width="none" data-height="none"
 						  data-whitespace="nowrap" data-type="row" data-columnbreak="2" data-responsive_offset="off" data-responsive="off" data-frames='[{"delay":10,"speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-						  data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[200,200,150,150]" data-marginleft="[0,0,0,0]" data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]"
+						  data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[100,100,50,50]" data-marginleft="[0,0,0,0]" data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]"
 						  data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 26; white-space: nowrap; font-size: 20px; line-height: 22px; font-weight: 400; color: rgba(255,255,255,1); letter-spacing: px;font-family:Open Sans;">
 							<!-- LAYER NR. 22 -->
 							<div class="tp-caption  " id="slide-85-layer-55" data-x="['left','left','left','left']" data-hoffset="['100','100','100','100']" data-y="['top','top','top','top']" data-voffset="['100','100','100','100']" data-width="none" data-height="none"
@@ -645,7 +648,8 @@
 								<div class="tp-caption  " id="slide-85-layer-59" data-x="['left','left','left','left']" data-hoffset="['0','0','0','0']" data-y="['top','top','top','top']" data-voffset="['0','0','0','0']" data-width="none" data-height="none" data-whitespace="normal"
 								  data-type="text" data-responsive_offset="off" data-responsive="off" data-frames='[{"delay":"+990","speed":1000,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"150","ease":"Power1.easeInOut","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(46,216,163);bw:1px 0 0 0;"}]'
 								  data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[50,50,50,50]" data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[10,10,10,10]" data-paddingright="[0,0,0,0]"
-								  data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 31; white-space: normal; font-size: 17px; line-height: 17px; font-weight: 600; color: #ffffff; letter-spacing: 0px; display: block;font-family:Source Sans Pro;border-color:rgba(255,255,255,0.15);border-style:solid;border-width:1px 0px 0px 0px;cursor:pointer;"> </div>
+								  data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 31; white-space: normal; font-size: 17px; line-height: 17px; font-weight: 600; color: #ffffff; letter-spacing: 0px; display: block;font-family:Source Sans Pro;border-color:rgba(255,255,255,0.15);border-style:solid;border-width:1px 0px 0px 0px;cursor:pointer;">
+								</div>
 							</div>
 
 							<!-- LAYER NR. 27 -->
@@ -678,7 +682,8 @@
 								<div class="tp-caption  " id="slide-85-layer-64" data-x="['left','left','left','left']" data-hoffset="['0','0','0','0']" data-y="['top','top','top','top']" data-voffset="['0','0','0','0']" data-width="none" data-height="none" data-whitespace="normal"
 								  data-type="text" data-responsive_offset="off" data-responsive="off" data-frames='[{"delay":"+990","speed":1000,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"150","ease":"Power1.easeInOut","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(46,216,163);bw:1px 0 0 0;"}]'
 								  data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[50,50,50,50]" data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[10,10,10,10]" data-paddingright="[0,0,0,0]"
-								  data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 36; white-space: normal; font-size: 17px; line-height: 17px; font-weight: 600; color: #ffffff; letter-spacing: 0px; display: block;font-family:Source Sans Pro;border-color:rgba(255,255,255,0.15);border-style:solid;border-width:1px 0px 0px 0px;cursor:pointer;"> </div>
+								  data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 36; white-space: normal; font-size: 17px; line-height: 17px; font-weight: 600; color: #ffffff; letter-spacing: 0px; display: block;font-family:Source Sans Pro;border-color:rgba(255,255,255,0.15);border-style:solid;border-width:1px 0px 0px 0px;cursor:pointer;">
+								</div>
 							</div>
 
 
@@ -714,7 +719,7 @@
 						<!-- LAYER NR. 1 top tow-->
 						<div class="tp-caption  " id="slide-89-layer-2" data-x="['left','left','left','left']" data-hoffset="['100','100','100','100']" data-y="['top','top','top','top']" data-voffset="['100','100','100','100']" data-width="none" data-height="none"
 						  data-whitespace="nowrap" data-type="row" data-columnbreak="2" data-responsive_offset="off" data-responsive="off" data-frames='[{"delay":10,"speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-						  data-margintop="[200,200,150,150]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]" data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]"
+						  data-margintop="[50,50,50,50]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]" data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]"
 						  data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 5; white-space: nowrap; font-size: 20px; line-height: 22px; font-weight: 400; color: rgba(255,255,255,1); letter-spacing: px;font-family:Open Sans;">
 							<!-- LAYER NR. 2 -->
 							<div class="tp-caption  " id="slide-89-layer-3" data-x="['left','left','left','left']" data-hoffset="['100','100','100','100']" data-y="['top','top','top','top']" data-voffset="['100','100','100','100']" data-width="none" data-height="none"
@@ -732,7 +737,8 @@
 								<div class="tp-caption  " id="slide-89-layer-65" data-x="['left','left','left','left']" data-hoffset="['0','0','0','0']" data-y="['top','top','top','top']" data-voffset="['0','0','0','0']" data-width="100%" data-height="none" data-whitespace="normal"
 								  data-type="text" data-responsive_offset="off" data-responsive="off" data-frames='[{"delay":"+690","speed":1000,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
 								  data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[20,20,20,20]" data-marginleft="[0,0,0,0]" data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]"
-								  data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 8; min-width: 100%px; max-width: 100%px; white-space: normal; font-size: 17px; line-height: 26px; font-weight: 400; color: #5a6d81; letter-spacing: px; display: inline-block;font-family:Source Sans Pro;"> March 30-31, 2019 <br>539 E. Weddell Dr. Sunnyvale, CA 94085 </div>
+								  data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 8; min-width: 100%px; max-width: 100%px; white-space: normal; font-size: 17px; line-height: 26px; font-weight: 400; color: #5a6d81; letter-spacing: px; display: inline-block;font-family:Source Sans Pro;">
+									March 30-31, 2019 <br>539 E. Weddell Dr. Sunnyvale, CA 94085 </div>
 							</div>
 
 							<!-- LAYER NR. 5 -->
@@ -756,7 +762,8 @@
 								<div class="tp-caption  " id="slide-89-layer-49" data-x="['left','left','left','left']" data-hoffset="['0','0','0','0']" data-y="['top','top','top','top']" data-voffset="['0','0','0','0']" data-width="none" data-height="none" data-whitespace="normal"
 								  data-type="text" data-responsive_offset="off" data-responsive="off" data-frames='[{"delay":"+890","speed":1000,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
 								  data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]" data-textAlign="['center','center','center','center']" data-paddingtop="[30,30,30,30]" data-paddingright="[0,0,0,0]"
-								  data-paddingbottom="[20,20,20,20]" data-paddingleft="[0,0,0,0]" style="z-index: 19; white-space: normal; font-size: 26px; line-height: 35px; font-weight: 400; color: #2970ff; letter-spacing: 0px; display: block;font-family:Source Sans Pro;background-color:rgb(255,255,255);">Day 1 - March 30
+								  data-paddingbottom="[20,20,20,20]" data-paddingleft="[0,0,0,0]" style="z-index: 19; white-space: normal; font-size: 26px; line-height: 35px; font-weight: 400; color: #2970ff; letter-spacing: 0px; display: block;font-family:Source Sans Pro;background-color:rgb(255,255,255);">Day
+									1 - March 30
 								</div>
 
 
@@ -769,44 +776,44 @@
 								  data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]" data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]"
 								  data-paddingbottom="[30,30,30,30]" data-paddingleft="[0,0,0,0]" style="z-index: 25; min-width: 100%px; max-width: 100%px; white-space: normal; font-size: 17px; line-height: 26px; font-weight: 400; color: #5a6d81; letter-spacing: px; display: block;font-family:Source Sans Pro;background-color:rgb(255,255,255);">
 									<table style="width:100%">
-									  <tr>
-									    <td>9:30 AM</td>
-									    <td>Check in</td>
-									  </tr>
-									  <tr>
-									    <td>10:00 AM</td>
-									    <td>Open ceremony</td>
-									  </tr>
-									  <tr>
-									    <td>11:00 AM</td>
-									    <td>Hacking starts</td>
-									  </tr>
-									  <tr>
-									    <td>1:00 PM</td>
-									    <td>Lunch</td>
-									  </tr>
-									  <tr>
-									      <td>2:00 PM</td>
-									      <td>Office hours</td>
-									    </tr>
-									    <tr>
-									      <td>4:00 PM</td>
-									      <td>Snack</td>
-									    </tr>
-									    <tr>
-									        <td>7:00 PM</td>
-									        <td>Dinner</td>
-									      </tr>
-									    <tr>
-									      <td>9:00 PM</td>
-									      <td>Workshops round 1</td>
-									    </tr>
-									    <tr>
-									      <td>10:00 PM</td>
-									      <td>Workshops round 2</td>
-									    </tr>
+										<tr>
+											<td>9:30 AM</td>
+											<td>Check in</td>
+										</tr>
+										<tr>
+											<td>10:00 AM</td>
+											<td>Open ceremony</td>
+										</tr>
+										<tr>
+											<td>11:00 AM</td>
+											<td>Hacking starts</td>
+										</tr>
+										<tr>
+											<td>1:00 PM</td>
+											<td>Lunch</td>
+										</tr>
+										<tr>
+											<td>2:00 PM</td>
+											<td>Office hours</td>
+										</tr>
+										<tr>
+											<td>4:00 PM</td>
+											<td>Snack</td>
+										</tr>
+										<tr>
+											<td>7:00 PM</td>
+											<td>Dinner</td>
+										</tr>
+										<tr>
+											<td>9:00 PM</td>
+											<td>Workshops round 1</td>
+										</tr>
+										<tr>
+											<td>10:00 PM</td>
+											<td>Workshops round 2</td>
+										</tr>
 									</table>
-								 </div>
+								</div>
 
 								<!-- LAYER NR. 15 -->
 								<div class="tp-caption rev-btn   tc-btnshadow" id="slide-89-layer-48" data-x="['left','left','left','left']" data-hoffset="['0','334','100','80']" data-y="['top','middle','middle','middle']" data-voffset="['0','140','150','80']" data-width="none"
@@ -836,13 +843,14 @@
 							<!-- LAYER NR. 26 -->
 							<div class="tp-caption  " id="slide-89-layer-41" data-x="['left','left','left','left']" data-hoffset="['100','100','100','100']" data-y="['top','top','top','top']" data-voffset="['100','100','100','100']" data-width="none" data-height="none"
 							  data-whitespace="nowrap" data-type="column" data-responsive_offset="on" data-responsive="off" data-frames='[{"delay":"+0","speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-							  data-columnwidth="45%" data-verticalalign="top" data-margintop="[30,30,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[30,30,0,0]" data-marginleft="[0,0,0,0]" data-textAlign="['inherit','inherit','inherit','inherit']"
-							  data-paddingtop="[0,0,0,0]" data-paddingright="[40,40,40,40]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,40,40]" style="z-index: 37; width: 100%;">
+							  data-columnwidth="45%" data-verticalalign="top" data-margintop="[30,30,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[30,30,0,0]" data-marginleft="[0,0,0,0]" data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
+							  data-paddingright="[40,40,40,40]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,40,40]" style="z-index: 37; width: 100%;">
 								<!-- LAYER NR. 27 -->
 								<div class="tp-caption  " id="slide-89-layer-57" data-x="['left','left','left','left']" data-hoffset="['0','0','0','0']" data-y="['top','top','top','top']" data-voffset="['0','0','0','0']" data-width="none" data-height="none" data-whitespace="normal"
 								  data-type="text" data-responsive_offset="off" data-responsive="off" data-frames='[{"delay":"+890","speed":1000,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
 								  data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]" data-textAlign="['center','center','center','center']" data-paddingtop="[30,30,30,30]" data-paddingright="[0,0,0,0]"
-								  data-paddingbottom="[20,20,20,20]" data-paddingleft="[0,0,0,0]" style="z-index: 38; white-space: normal; font-size: 26px; line-height: 35px; font-weight: 400; color: #2970ff; letter-spacing: 0px; display: block;font-family:Source Sans Pro;background-color:rgb(255,255,255);">Day 2 - March 31
+								  data-paddingbottom="[20,20,20,20]" data-paddingleft="[0,0,0,0]" style="z-index: 38; white-space: normal; font-size: 26px; line-height: 35px; font-weight: 400; color: #2970ff; letter-spacing: 0px; display: block;font-family:Source Sans Pro;background-color:rgb(255,255,255);">Day
+									2 - March 31
 								</div>
 
 
@@ -854,38 +862,38 @@
 								  data-paddingbottom="[30,30,30,30]" data-paddingleft="[0,0,0,0]" style="z-index: 44; min-width: 100%px; max-width: 100%px; white-space: normal; font-size: 17px; line-height: 26px; font-weight: 400; color: #5a6d81; letter-spacing: px; display: block;font-family:Source Sans Pro;background-color:rgb(255,255,255);">
 									<table style="width:100%">
 
-									  <tr>
-									    <td>12:00 AM</td>
-									    <td>Midnight snacks</td>
-									  </tr>
-									    <tr>
-									      <td>12:00 AM</td>
-									      <td>Office hours</td>
-									  </tr>
-									  <tr>
-									    <td>8:00 AM</td>
-									    <td>Breakfast</td>
-									  </tr>
-									    <tr>
-									      <td>11:00 AM</td>
-									      <td>Hacking ends / Turn in projects</td>
-									  </tr>
-									  <tr>
-									      <td>11:45 AM</td>
-									      <td>Project presentations</td>
-									    </tr>
-									      <tr>
-									        <td>12:45 AM</td>
-									        <td>Closing ceremony and awards</td>
-									    </tr>
-									    <tr>
-									        <td>1:15 PM</td>
-									        <td>Clean up and check out</td>
-									      </tr>
-									        <tr>
-									          <td>2:30 PM</td>
-									          <td>Hackathon finishes</td>
-									      </tr>
+										<tr>
+											<td>12:00 AM</td>
+											<td>Midnight snacks</td>
+										</tr>
+										<tr>
+											<td>12:00 AM</td>
+											<td>Office hours</td>
+										</tr>
+										<tr>
+											<td>8:00 AM</td>
+											<td>Breakfast</td>
+										</tr>
+										<tr>
+											<td>11:00 AM</td>
+											<td>Hacking ends / Turn in projects</td>
+										</tr>
+										<tr>
+											<td>11:45 AM</td>
+											<td>Project presentations</td>
+										</tr>
+										<tr>
+											<td>12:45 AM</td>
+											<td>Closing ceremony and awards</td>
+										</tr>
+										<tr>
+											<td>1:15 PM</td>
+											<td>Clean up and check out</td>
+										</tr>
+										<tr>
+											<td>2:30 PM</td>
+											<td>Hackathon finishes</td>
+										</tr>
 									</table>
 								</div>
 
@@ -901,7 +909,7 @@
 						<!-- LAYER NR. 35 -->
 						<div class="tp-caption  " id="slide-89-layer-69" data-x="['left','left','left','left']" data-hoffset="['0','0','100','100']" data-y="['top','top','top','top']" data-voffset="['896','896','100','100']" data-width="none" data-height="none"
 						  data-whitespace="nowrap" data-type="row" data-columnbreak="2" data-responsive_offset="off" data-responsive="off" data-frames='[{"delay":10,"speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-						  data-margintop="[60,60,40,40]" data-marginright="[0,0,0,0]" data-marginbottom="[200,200,150,150]" data-marginleft="[0,0,0,0]" data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]"
+						  data-margintop="[60,60,40,40]" data-marginright="[0,0,0,0]" data-marginbottom="[100,100,50,50]" data-marginleft="[0,0,0,0]" data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]"
 						  data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 10; white-space: nowrap; font-size: 20px; line-height: 22px; font-weight: 400; color: #ffffff; letter-spacing: 0px;">
 							<!-- LAYER NR. 36 -->
 							<div class="tp-caption  " id="slide-89-layer-70" data-x="['left','left','left','left']" data-hoffset="['100','100','100','100']" data-y="['top','top','top','top']" data-voffset="['100','100','100','100']" data-width="none" data-height="none"
@@ -912,7 +920,8 @@
 								<div class="tp-caption  " id="slide-89-layer-72" data-x="['left','left','left','left']" data-hoffset="['0','0','0','0']" data-y="['top','top','top','top']" data-voffset="['0','0','0','0']" data-width="100%" data-height="none" data-whitespace="normal"
 								  data-type="text" data-responsive_offset="off" data-responsive="off" data-frames='[{"delay":"+1190","speed":1000,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
 								  data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[10,10,10,10]" data-marginleft="[0,0,0,0]" data-textAlign="['center','center','center','center']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]"
-								  data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 12; min-width: 100%px; max-width: 100%px; white-space: normal; font-size: 17px; line-height: 26px; font-weight: 400; color: rgba(90,109,129,0.5); letter-spacing: px; display: inline-block;font-family:Source Sans Pro;">No programing experience is required. </div>
+								  data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 12; min-width: 100%px; max-width: 100%px; white-space: normal; font-size: 17px; line-height: 26px; font-weight: 400; color: rgba(90,109,129,0.5); letter-spacing: px; display: inline-block;font-family:Source Sans Pro;">No
+									programing experience is required. </div>
 
 
 							</div>
@@ -950,7 +959,8 @@
 								<div class="tp-caption  " id="slide-93-layer-6" data-x="['left','left','center','center']" data-hoffset="['0','3','3','3']" data-y="['top','top','middle','middle']" data-voffset="['0','240','240','240']" data-fontsize="['40','40','40','30']"
 								  data-lineheight="['50','50','50','40']" data-width="['100%','472','100%','100%']" data-height="none" data-whitespace="normal" data-type="text" data-responsive_offset="off" data-responsive="off" data-frames='[{"delay":"+90","speed":500,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
 								  data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[40,40,30,30]" data-marginleft="[0,0,0,0]" data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]"
-								  data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 7; min-width: 100%px; max-width: 100%px; white-space: normal; font-size: 40px; line-height: 50px; font-weight: 600; color: #ffffff; letter-spacing: px; display: block;font-family:Source Sans Pro;">Meet the team </div>
+								  data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 7; min-width: 100%px; max-width: 100%px; white-space: normal; font-size: 40px; line-height: 50px; font-weight: 600; color: #ffffff; letter-spacing: px; display: block;font-family:Source Sans Pro;">Meet
+									the team </div>
 							</div>
 
 							<!-- LAYER NR. 4 -->
@@ -984,60 +994,60 @@
 								  data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[20,20,20,20]" data-marginleft="[0,0,0,0]" data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]"
 								  data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 15; min-width: 100%px; max-width: 100%px; white-space: normal; font-size: 26px; line-height: 35px; font-weight: 400; color: #ffffff; letter-spacing: px; display: inline-block;font-family:Source Sans Pro;">
 									<table>
-									  <tr>
-									    <td>Emily Lam</td>
-									    <td class="teamrole">Lead Organizer</td>
-									  </tr>
-									  <tr>
-									    <td>Allen Yao</td>
-									    <td class="teamrole">Co-Lead Organizer</td>
-									  </tr>
-									  <tr>
-									    <td>Holger Kibur</td>
-									    <td class="teamrole">Tech Team</td>
-									  </tr>
-									  <tr>
-									    <td>Alec Van Dijken</td>
-									    <td class="teamrole">Tech Team</td>
-									  </tr>
-									  <tr>
-									    <td>Alex Suppiah</td>
-									    <td class="teamrole">Sponsorship Lead</td>
-									  </tr>
-									  </table>
+										<tr>
+											<td>Emily Lam</td>
+											<td class="teamrole">Lead Organizer</td>
+										</tr>
+										<tr>
+											<td>Allen Yao</td>
+											<td class="teamrole">Co-Lead Organizer</td>
+										</tr>
+										<tr>
+											<td>Holger Kibur</td>
+											<td class="teamrole">Tech Team</td>
+										</tr>
+										<tr>
+											<td>Alec Van Dijken</td>
+											<td class="teamrole">Tech Team</td>
+										</tr>
+										<tr>
+											<td>Alex Suppiah</td>
+											<td class="teamrole">Sponsorship Lead</td>
+										</tr>
+									</table>
 								</div>
 							</div>
 
-														<!-- LAYER NR. 8 -->
-														<div class="tp-caption  " id="slide-93-layer-32" data-x="['left','left','left','left']" data-hoffset="['100','100','100','100']" data-y="['top','top','top','top']" data-voffset="['100','100','100','100']" data-width="none" data-height="none"
-														  data-whitespace="nowrap" data-type="column" data-responsive_offset="off" data-responsive="off" data-frames='[{"delay":"+0","speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-														  data-columnwidth="40%" data-verticalalign="top" data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]" data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
-														  data-paddingright="[40,40,40,40]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[40,40,40,40]" style="z-index: 12; width: 100%;font-family:Open Sans;">
-															<!-- LAYER NR. 10 -->
-															<div class="tp-caption  " id="slide-93-layer-30" data-x="['left','left','left','left']" data-hoffset="['0','0','0','0']" data-y="['top','top','top','top']" data-voffset="['0','0','0','0']" data-fontsize="['26','17','17','17']"
-															  data-lineheight="['35','26','26','26']" data-width="100%" data-height="none" data-whitespace="normal" data-type="text" data-responsive_offset="off" data-responsive="off" data-frames='[{"delay":"+290","speed":500,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-															  data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[20,20,20,20]" data-marginleft="[0,0,0,0]" data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]"
-															  data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 15; min-width: 100%px; max-width: 100%px; white-space: normal; font-size: 26px; line-height: 35px; font-weight: 400; color: #ffffff; letter-spacing: px; display: inline-block;font-family:Source Sans Pro;">
-																<table>
-															  <tr>
-															    <td>Christina Nguyen</td>
-															    <td class="teamrole">Operations Lead</td>
-															  </tr>
-															  <tr>
-															    <td>William Torborg</td>
-															    <td class="teamrole">Outreach</td>
-															  </tr>
-															  <tr>
-															    <td>Jesse Yao</td>
-															    <td class="teamrole">Graphics Designer</td>
-															  </tr>
-															  <tr>
-															    <td>Cory Decker</td>
-															    <td class="teamrole">Outreach</td>
-															  </tr>
-															</table>
-															</div>
-														</div>
+							<!-- LAYER NR. 8 -->
+							<div class="tp-caption  " id="slide-93-layer-32" data-x="['left','left','left','left']" data-hoffset="['100','100','100','100']" data-y="['top','top','top','top']" data-voffset="['100','100','100','100']" data-width="none" data-height="none"
+							  data-whitespace="nowrap" data-type="column" data-responsive_offset="off" data-responsive="off" data-frames='[{"delay":"+0","speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+							  data-columnwidth="40%" data-verticalalign="top" data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]" data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
+							  data-paddingright="[40,40,40,40]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[40,40,40,40]" style="z-index: 12; width: 100%;font-family:Open Sans;">
+								<!-- LAYER NR. 10 -->
+								<div class="tp-caption  " id="slide-93-layer-30" data-x="['left','left','left','left']" data-hoffset="['0','0','0','0']" data-y="['top','top','top','top']" data-voffset="['0','0','0','0']" data-fontsize="['26','17','17','17']"
+								  data-lineheight="['35','26','26','26']" data-width="100%" data-height="none" data-whitespace="normal" data-type="text" data-responsive_offset="off" data-responsive="off" data-frames='[{"delay":"+290","speed":500,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+								  data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[20,20,20,20]" data-marginleft="[0,0,0,0]" data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]"
+								  data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="z-index: 15; min-width: 100%px; max-width: 100%px; white-space: normal; font-size: 26px; line-height: 35px; font-weight: 400; color: #ffffff; letter-spacing: px; display: inline-block;font-family:Source Sans Pro;">
+									<table>
+										<tr>
+											<td>Christina Nguyen</td>
+											<td class="teamrole">Operations Lead</td>
+										</tr>
+										<tr>
+											<td>William Torborg</td>
+											<td class="teamrole">Outreach</td>
+										</tr>
+										<tr>
+											<td>Jesse Yao</td>
+											<td class="teamrole">Graphics Designer</td>
+										</tr>
+										<tr>
+											<td>Cory Decker</td>
+											<td class="teamrole">Outreach</td>
+										</tr>
+									</table>
+								</div>
+							</div>
 
 
 							<!-- LAYER NR. 12 -->
@@ -1093,7 +1103,7 @@
 									  class="fa-icon-group" style="width:25px;text-align:center;"></i> Denali Hackathon 2019<br />
 									<i class="fa-icon-map-marker" style="width:25px;text-align:center;"></i> 539 E. Weddell Dr. Sunnyvale, CA 94085<br />
 									<i class="fa-icon-envelope-o" style="width:25px;text-align:center;"></i> info@denalihacks.com<br />
-<!--
+									<!--
 									<a href="#" class="tc-phone">
 										<i class="fa-icon-phone-square" style="width:25px;text-align:center;"></i> +1 987 654321</a>
 -->
@@ -1123,14 +1133,15 @@
 								<a class="tp-caption  " href="https://www.themepunch.com/support-center/#support" target="_blank" id="slide-97-layer-42" data-x="['left','left','left','left']" data-hoffset="['5','0','0','0']" data-y="['top','top','top','top']" data-voffset="['5','0','0','0']"
 								  data-fontsize="['23','23','23','20']" data-lineheight="['35','35','35','30']" data-width="100%" data-height="none" data-whitespace="nowrap" data-type="text" data-actions='' data-responsive_offset="off" data-responsive="off" data-frames='[{"delay":"+690","speed":1000,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"200","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(46,216,163);"}]'
 								  data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]" data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]"
-								  data-paddingleft="[0,0,0,0]" style="z-index: 16; min-width: 100%px; max-width: 100%px; white-space: nowrap; font-size: 23px; line-height: 35px; font-weight: 600; color: #ffffff; letter-spacing: px; display: inline-block;font-family:Source Sans Pro;cursor:pointer;text-decoration: none;">FAQ </a>
+								  data-paddingleft="[0,0,0,0]" style="z-index: 16; min-width: 100%px; max-width: 100%px; white-space: nowrap; font-size: 23px; line-height: 35px; font-weight: 600; color: #ffffff; letter-spacing: px; display: inline-block;font-family:Source Sans Pro;cursor:pointer;text-decoration: none;">FAQ
+								</a>
 
 								<!-- LAYER NR. 12 -->
-								<a class="tp-caption  " href="https://tinyurl.com/denalihacks2018" target="_blank" id="slide-97-layer-41" data-x="['left','left','left','left']" data-hoffset="['0','0','0','0']" data-y="['top','top','top','top']"
-								  data-voffset="['0','0','0','0']" data-fontsize="['23','23','23','20']" data-lineheight="['35','35','35','30']" data-width="100%" data-height="none" data-whitespace="nowrap" data-type="text" data-actions='' data-responsive_offset="off"
-								  data-responsive="off" data-frames='[{"delay":"+690","speed":1000,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"200","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(46,216,163);"}]'
+								<a class="tp-caption  " href="https://tinyurl.com/denalihacks2018" target="_blank" id="slide-97-layer-41" data-x="['left','left','left','left']" data-hoffset="['0','0','0','0']" data-y="['top','top','top','top']" data-voffset="['0','0','0','0']"
+								  data-fontsize="['23','23','23','20']" data-lineheight="['35','35','35','30']" data-width="100%" data-height="none" data-whitespace="nowrap" data-type="text" data-actions='' data-responsive_offset="off" data-responsive="off" data-frames='[{"delay":"+690","speed":1000,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"200","ease":"Linear.easeNone","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(46,216,163);"}]'
 								  data-margintop="[0,0,0,0]" data-marginright="[0,0,0,0]" data-marginbottom="[0,0,0,0]" data-marginleft="[0,0,0,0]" data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]"
-								  data-paddingleft="[0,0,0,0]" style="z-index: 15; min-width: 100%px; max-width: 100%px; white-space: nowrap; font-size: 23px; line-height: 35px; font-weight: 600; color: #ffffff; letter-spacing: px; display: inline-block;font-family:Source Sans Pro;cursor:pointer;text-decoration: none;">Code of Conduct
+								  data-paddingleft="[0,0,0,0]" style="z-index: 15; min-width: 100%px; max-width: 100%px; white-space: nowrap; font-size: 23px; line-height: 35px; font-weight: 600; color: #ffffff; letter-spacing: px; display: inline-block;font-family:Source Sans Pro;cursor:pointer;text-decoration: none;">Code
+									of Conduct
 								</a>
 
 								<!-- LAYER NR. 13 -->
